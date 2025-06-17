@@ -9,6 +9,8 @@ public class mainEx1P1 {
         String stringaProva = scanner.nextLine();
 
         stringaPariDispari(stringaProva);
+
+        scanner.close();
     };
 
     public static void stringaPariDispari(String stringa){
